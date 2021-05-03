@@ -7,7 +7,7 @@ import * as qs from "qs";
 
 const apiUrl = process.env.REACT_APP_API_URL;
 
-export const ProjectListPage = () => {
+export const ProjectListScreen = () => {
   const [users, setUsers] = useState([]);
 
   const [param, setParam] = useState({
